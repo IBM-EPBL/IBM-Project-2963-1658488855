@@ -1,0 +1,21 @@
+import random
+
+
+while True:
+    temp=random.randint(1,100)
+
+    humidity=random.randint(1,100)
+    print("humidity is:{} ".format(humidity))
+    
+    print("Temperature is :{} celcius".format(temp))
+    
+    if(humidity>=22 and humidity<=28):
+        print("normal humidity value")
+    else:
+        print("humidity value greater than normal")
+    if(temp>=18 and temp<=24):
+        print("normal")
+    else:
+        print("hazard detected")
+        
+    
